@@ -1,0 +1,20 @@
+body {
+    max-width: max-content;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#btn {
+    background-color: #76a5af;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 2px 2px 0 0 black;
+}

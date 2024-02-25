@@ -1,0 +1,40 @@
+  body {
+    max-width: max-content;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#comment {
+    height: 60px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #76a5af;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 2px 2px 0 0 black;
+}
+
